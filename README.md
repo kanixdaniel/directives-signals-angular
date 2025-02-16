@@ -1,27 +1,57 @@
-# DirectiveSignals
+# Nombre del Proyecto
+Este proyecto es una recopilación de practicas realizadas sobre el uso de signals en Angular. Tecnología implementada en el frameworks a partir de la version 18.
+[Link del sitio en vivo](https://kanixdaniel.github.io/directives-signals-angular/signals/counter)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0-rc.0.
+## Características principales
+- El proyecto tiene un layout con las vistas disponibles
+- Contiene las siguientes vistas:
+    - Un contador que se ejecuta con signals (de lectura y escritura y de solo lectura)
+    - Información de un usuario consultado desde [reqres.in](https://reqres.in/) con signals y nuevo estándar de inyección de servicios
+    - Un formulario que simula la información de un usuario y demuestra la eficiencia (en comparación con zone.js) al mostrar los cambios en front cuando se tienen mas de un signal y en alguno ocurre un cambio
 
-## Development server
+## Tecnologías utilizadas
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Frontend**: Angular, Bootstrap
+- **Backend**: API de [reqres.in](https://reqres.in/)
+- **Base de datos**: N/A
+- **Otras herramientas**: GitHub Pages
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Sigue estos pasos para configurar el proyecto localmente:
 
-## Build
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/kanixdaniel/directives-signals-angular.git
+   ```
+2. Instala las dependencias:
+   ```bash
+   cd directives-signals-angular
+   npm install
+   ```
+3. Configura las variables de entorno. Crea un archivo *.env* en la raíz del proyecto tomando como base el archivo *.env.template* incluido en el proyecto.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+4. Levanta el proyecto:
+   ```bash
+   npm run start
+   yarn dev
+   ng serve
+   ```
 
-## Running unit tests
+## Contibución
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+¡Las contribuciones son bienvenidas! Si deseas contribuir, sigue estos pasos:
+1. Haz un fork del repositorio.
+2. Crea una rama con tu feature o corrección: `git checkout -b nombre-de-tu-rama`
+3. Realiza tus cambios y haz commit: `git commit -m "Descripción de tus cambios”`
+4. Envía un pull request.
 
-## Running end-to-end tests
+## Licencia
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT).
 
-## Further help
+## Contacto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
+* [**Email**](mailto:contact.isc.dpg@gmail.com)
+* [**LinkedIn**](https://linkedin.com/in/kanix-daniel)
