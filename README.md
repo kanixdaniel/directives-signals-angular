@@ -1,4 +1,77 @@
-# Nombre del Proyecto
+> [!NOTE]
+> English version
+# Signal on Angular
+This project is a compilation of practices carried out on the use of signals in Angular. This technology was implemented in the framework starting from version 18.
+
+## Key Features
+- The project has a layout with the available views.
+- It includes the following views:
+    - A counter that runs with signals (both writable and read-only signals).
+    - User information fetched from reqres.in using signals and the new service injection standard.
+    - A form that simulates user information and demonstrates efficiency (compared to zone.js) when displaying front-end changes with multiple signals and when a change occurs in one of them.
+
+## Technologies Used
+* **Frontend**: Angular, Bootstrap
+* **Backend**: API from [reqres.in](https://reqres.in/)
+* **Database**: N/A
+* **Other Tools**: GitHub Pages
+
+## Installation
+Follow these steps to set up the project locally:
+1. Clone the repository:
+    ```
+    bashgit clone https://github.com/kanixdaniel/directives-signals-angular.git
+    ```
+2. Install dependencies:
+    ```
+   cd directives-signals-angular
+   npm install
+   ```
+3. Set up environment variables. Create a *.env* file in the root of the project based on the *.env.template* file included in the project.
+
+4. Start the project:
+    ```
+   ng serve
+   ```
+
+## Contribution
+Contributions are welcome! If you'd like to contribute, follow these steps:
+1. Fork the repository.
+2. Create a branch for your feature or fix: `git checkout -b your-branch-name`
+3. Make your changes and commit them: `git commit -m "Description of your changes"`
+4. Submit a pull request.
+
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## Contact
+If you have any questions or suggestions, feel free to contact me:
+* [**Email**](mailto:contact.isc.dpg@gmail.com)
+* [**LinkedIn**](https://linkedin.com/in/kanix-daniel)
+
+
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+---
+
+> [!NOTE]
+> Versión en español
+# Signals en Angular
 Este proyecto es una recopilación de practicas realizadas sobre el uso de signals en Angular. Tecnología implementada en el frameworks a partir de la version 18.
 [Link del sitio en vivo](https://kanixdaniel.github.io/directives-signals-angular/signals/counter)
 
@@ -33,8 +106,6 @@ Sigue estos pasos para configurar el proyecto localmente:
 
 4. Levanta el proyecto:
    ```bash
-   npm run start
-   yarn dev
    ng serve
    ```
 
